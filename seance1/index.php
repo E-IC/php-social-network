@@ -1,5 +1,5 @@
 <?php
-  include './includes/generators.php';
+  include './includes/utils.php';
   include './includes/users.php';
   $max_len=8;
   if(isset($_GET['len']) && $_GET['len']>3)
@@ -20,7 +20,7 @@
             }
         }
     }
-  
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
