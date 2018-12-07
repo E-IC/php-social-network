@@ -1,0 +1,48 @@
+nav > *{
+    display: inline-block;
+}
+
+#logo 
+{
+    margin: 10px;
+    float : left;
+}
+
+#logo > img {
+    height: 100px;
+    width: 100px;
+}
+
+section 
+{
+    display: inline-block;
+}
+
+nav > ul {
+    clear: both;
+    margin: 0 500px;
+}
+
+ul > li{
+    margin: 0 10px;
+}
+
+svg{
+    height: 400px;
+    width: 400px;
+}
+
+.online {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: seagreen;
+}
+.offline {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: darkred;
+}
